@@ -1,7 +1,7 @@
 # ProxyMoxy
 
 <p align="center">
-    <img width="300" src="https://i.ibb.co/gmtHx0H/githube-repo-img-round.png"/>
+    <img width="150%" src="https://i.ibb.co/gmtHx0H/githube-repo-img-round.png"/>
 </p>
 
 <p align="center">
