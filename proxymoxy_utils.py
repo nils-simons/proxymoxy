@@ -7,10 +7,9 @@ def setWinTitle(title):
     ctypes.windll.kernel32.SetConsoleTitleW(title)
 
 def printMainWinTitle():
-    print("==========ProxyMoxy v0.1 Free==========")
-    print('Devd by IchBinHanz#3098')
-    print('Discord: https://discord.gg/G4AMbNkEhc')
-    print("=======================================")
+    print("=================ProxyMoxy v0.7=================")
+    print('GitHub: https://github.com/IchBInHanz/proxymoxy')
+    print("================================================")
 
 def getProxyFileName(proxy_type):
     from datetime import datetime
