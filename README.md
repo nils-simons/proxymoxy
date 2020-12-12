@@ -30,10 +30,10 @@ First of you need to Download or Clone the Repository then unzip it.
 
 2. Clone Repo Method
 
-You need to Install [Git](https://gitforwindows.org/) then open a Command Shell and run
+    You need to Install [Git](https://gitforwindows.org/) then open a Command Shell and run
 
 	```bash
-	git clone https://github.com/IchBInHanz/proxymoxy.git
+	    git clone https://github.com/IchBInHanz/proxymoxy.git
 	```
 
 ##### Install Requirements
