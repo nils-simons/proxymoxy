@@ -1,0 +1,6 @@
+requests
+os-sys
+urllib3
+pywin32-ctypes
+lxml
+datetime

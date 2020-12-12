@@ -2,7 +2,6 @@ import os
 import sys
 import requests
 import urllib
-import ctypes
 import json
 from lxml import html
 from datetime import datetime
