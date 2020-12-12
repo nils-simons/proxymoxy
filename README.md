@@ -23,9 +23,9 @@ You can rebuild [ProxyMoxy](https://github.com/IchBinHanz/proxymoxy)from the Sou
 First of you need to Download or Clone the Repository then unzip it.
 
 1. Download Method
-<br>
+
 [Downlaod Latest](https://github.com/IchBInHanz/proxymoxy/archive/main.zip)
-    <img width="50%" src="https://media4.giphy.com/media/D6c5n7XM7fBAA2zieW/giphy.gif">
+<img left="50px" width="50%" src="https://media4.giphy.com/media/D6c5n7XM7fBAA2zieW/giphy.gif">
 
 2. Clone Repo Method
 You need to Install [Git](https://gitforwindows.org/) then open a Command Shell and run
