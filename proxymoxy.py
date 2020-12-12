@@ -19,7 +19,7 @@ proxy_file = pmu.getProxyFileName(proxy_type)
 pmu.createProxyDir()
 print("Starting...")
 try:
-	response = requests.get("https://api.brexis.net/proxymoxy/free/links.json")
+	response = requests.get("https://raw.githubusercontent.com/IchBInHanz/proxymoxy/main/proxy_site_links/proxy_site_links.json")
 except:
 	pmu.trowError("Server are currently down or in maintenance.")
 	exit()
