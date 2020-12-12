@@ -15,7 +15,7 @@
 
 ProxyMoxy is a Open Source Proxy Scraper for Socks4/Socks5/Http(s) Proxies
 
-You can rebuild [ProxyMoxy](https://github.com/IchBinHanz/proxymoxy)from the Source with the following setup.
+You can rebuild [ProxyMoxy](https://github.com/IchBinHanz/proxymoxy) from the Source with the following setup.
 
 ## Rebuild
 
@@ -29,6 +29,7 @@ First of you need to Download or Clone the Repository then unzip it.
     <img width="50%" src="https://media4.giphy.com/media/D6c5n7XM7fBAA2zieW/giphy.gif">
 
 2. Clone Repo Method
+
 You need to Install [Git](https://gitforwindows.org/) then open a Command Shell and run
 	```bash
 	git clone https://github.com/IchBInHanz/proxymoxy.git
@@ -42,7 +43,12 @@ pip install -r requirements.txt
 ```
 
 ##### Build
-For build run the [build.bat](https://github.com/IchBInHanz/proxymoxy/blob/main/build.bat)
+For build run the [build.bat](https://github.com/IchBInHanz/proxymoxy/blob/main/build.bat) or use
+
+```bash
+pyinstaller --onefile -i icon.ico proxymoxy.py
+```
+
 and voila you have the fully compiled .exe in the dist dir.
 ## License
 
