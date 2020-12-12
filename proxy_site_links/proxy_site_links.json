@@ -1,0 +1,22 @@
+{
+    "status": 200,
+    "links": {
+        "socks4": [
+            ["txt", "https://api.proxyscrape.com/v2/?request=getproxies&protocol=socks4&timeout=10000&country=all"],
+            ["txt", "https://github.com/ShiftyTR/Proxy-List/blob/master/socks4.txt"]
+        ],
+        "socks5": [
+            ["txt", "https://api.proxyscrape.com/v2/?request=getproxies&protocol=socks5&timeout=10000&country=all"],
+            ["html", "xpath", "//*[@id=\"post-body-1590247919649098408\"]/textarea", "http://www.live-socks.net/2020/05/28-05-20-socks-5-servers.html"],
+            ["txt", "https://github.com/ShiftyTR/Proxy-List/blob/master/socks5.txt"],
+            ["txt", "https://github.com/hookzof/socks5_list/blob/master/proxy.txt"]
+        ],
+        "http": [
+            ["txt", "https://api.proxyscrape.com/v2/?request=getproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all"],
+            ["txt", "https://github.com/clarketm/proxy-list/blob/master/proxy-list-raw.txt"],
+            ["txt", "https://github.com/a2u/free-proxy-list/blob/master/free-proxy-list.txt"],
+            ["txt", "https://github.com/opsxcq/proxy-list/blob/master/list.txt"],
+            ["txt", "https://github.com/ShiftyTR/Proxy-List/blob/master/http.txt"]
+        ]
+    }
+}
