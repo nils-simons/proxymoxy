@@ -8,7 +8,7 @@ from datetime import datetime
 import proxymoxy_utils as pmu
 
 pmu.clearConsole()
-pmu.setWinTitle("ProxyMoxy v0.7")
+pmu.setWinTitle("ProxyMoxy v0.1")
 pmu.printMainWinTitle()
 workdir = os.getcwd()
 proxy_type = pmu.getProxyType()
