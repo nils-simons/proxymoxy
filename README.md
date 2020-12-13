@@ -38,7 +38,9 @@ First of you need to Download or Clone the Repository then unzip it.
 
 ##### Install Requirements
 Code was tested with [Python 3.8.6](https://www.python.org/downloads/release/python-386/)
+
 Install all Requirements with
+
 ```bash
 pip install -r requirements.txt
 ```
