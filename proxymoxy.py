@@ -16,9 +16,10 @@ pmu.clearConsole()
 pmu.printMainWinTitle()
 proxy_file = pmu.getProxyFileName(proxy_type)
 pmu.createProxyDir()
+url = pmu.getConfig("proxy_site_links_url")
 print("Starting...")
 try:
-	response = requests.get("https://raw.githubusercontent.com/IchBInHanz/proxymoxy/main/proxy_site_links/proxy_site_links.json")
+	response = requests.get(url)
 except:
 	pmu.trowError("Server are currently down or in maintenance.")
 	exit()

@@ -60,3 +60,26 @@ def writeToFileAsHtml(text, proxy_file):
     toWrite = isTxt + text
     f.write(toWrite)
     f.close()
+
+def getConfig(jsonName):
+    from os import path
+    import urllib
+    import json
+    if path.exists("config.json"):
+        pass
+    else:
+        print("Creating config File...")
+        url = 'https://raw.githubusercontent.com/IchBInHanz/proxymoxy/main/config.json'
+        json_url = urllib.request.urlopen(url)
+        data = json.loads(json_url.read())
+        configFile = open("config.json", "a")
+        configFile.write(str(str(data).replace("'", "\"")))
+        configFile.close()
+    print("Loading Config File...")
+    configFile = open('config.json',)
+    data = json.load(configFile)
+    toReturnUlr = ""
+    for i in data[jsonName]:
+        toReturnUlr = toReturnUlr + i
+    configFile.close()
+    return str(toReturnUlr)
