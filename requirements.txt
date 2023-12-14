@@ -4,4 +4,4 @@ idna==2.10
 lxml==4.9.1
 requests==2.31.0
 urllib3==1.26.18
-pyinstaller==4.1
+pyinstaller==5.13.1
