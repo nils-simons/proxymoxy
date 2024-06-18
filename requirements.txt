@@ -3,5 +3,5 @@ chardet==3.0.4
 idna==3.7
 lxml==4.9.1
 requests==2.32.0
-urllib3==1.26.18
+urllib3==1.26.19
 pyinstaller==5.13.1
